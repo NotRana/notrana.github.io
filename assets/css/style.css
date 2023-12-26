@@ -47,7 +47,7 @@ html,body {
     align-items: center;
     /* position: fixed;
     left: 0; */
-   
+    /* overflow: scroll; */
     /* background-color: #1c1b23; */
     
 }
@@ -63,10 +63,10 @@ html,body {
 
 
 
-.links ul{
+/* .links ul{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    /
     align-items: center;
 }
 
@@ -79,7 +79,7 @@ html,body {
 .links ul li a{
     text-decoration: none;
     color: var(--text-primary);
-}
+} */
 
 .nav-content h4{
     margin-bottom: 20px;
@@ -89,11 +89,11 @@ html,body {
     margin-top: 40px;
     margin-left: 25px;
 }
-.socials ul{
+/* .socials ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+   
     
 }
 .socials ul li{
@@ -103,7 +103,7 @@ html,body {
 .socials ul li a{
     text-decoration: none;
     color: var(--text-primary);
-}
+} */
 
 .radio{
 
@@ -230,4 +230,61 @@ html,body {
     background: #555; /* Change this value for scrollbar handle color on hover */
 }
 
+i{
+    color: white;
+    font-size: 2rem;
+    
+    cursor: pointer;
+}
 
+.openMenu{
+    display: none;
+
+}
+
+.mobail-nav{
+    display: none;
+}
+
+.mainMenu i{
+    font-size: 1rem;
+    margin: 20px;
+    color: var(--text-primary);
+}
+
+.mainMenu li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 10px; */
+}
+
+.mainMenu li i {
+    margin-right: 30px; /* Adjust spacing between icon and text */
+}
+.mainMenu li a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.socials ul li i{
+    font-size: 1rem;
+    margin: 15px;
+}
+
+.socials ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 10px; */
+}
+
+.socials ul li i{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.socials ul li a{
+    text-decoration: none;
+    color: var(--text-primary)
+}

@@ -1,15 +1,12 @@
 @media only screen and (max-width: 993px) {
-    .side-nav{
+    .side-nav {
         width: 20%;
         height: 100%;
         display: none;
         justify-content: center;
         align-items: center;
-        /* position: fixed;
-        left: 0; */
-       
-        /* background-color: #1c1b23; */
-        
+        /* Additional styles for side-nav in responsive mode */
+        /* ... */
     }
 
     ::-webkit-scrollbar {
@@ -24,12 +21,72 @@
         display: none; /* Change this value for scrollbar track color */
     }
     
+
     /* Handle */
     ::-webkit-scrollbar-thumb {
         background: #888; /* Change this value for scrollbar handle color */
         border-radius: 20px;
         display: none;
     }
+
+
+    .header button{
+        margin: 12px;
+        display: none;
+        cursor: pointer;
+        border: none;
+        background-color: #2bd576;
+        padding: 12px 24px;
+        border-radius: 0.375rem;
+        color: #e0efff;
+        font-weight: 600;
+    
+    
+    }
+
+    .mainMenu{
+        height: vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #14131a;
+        transform: top 1s ease;
+        display: none;
+    }
+
+    .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .openMenu{
+        display: block;
+    }
+
+    .mobail-nav{
+        display: flex;
+    }
+    .mobo{
+        display: flex;
+        
+    }
+    .mobo li{
+        list-style: none;
+        margin: 20px;
+    }
+    .mobo li a{
+        text-decoration: none;
+        color: #8b8a91;
+    }
+
+
 }
 
 @media only screen and (max-width: 511px){
@@ -50,17 +107,5 @@
         right: 127px;
         
     }
-    .header button{
-        margin: 12px;
-        display: none;
-        cursor: pointer;
-        border: none;
-        background-color: #2bd576;
-        padding: 12px 24px;
-        border-radius: 0.375rem;
-        color: #e0efff;
-        font-weight: 600;
     
-    
-    }
 }

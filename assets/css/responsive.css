@@ -1,4 +1,4 @@
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 900px) {
     .side-nav {
         width: 20%;
         height: 100%;
@@ -90,11 +90,11 @@
 }
 
 @media only screen and (max-width: 511px){
-    .follow-button button{
+    /* .follow-button button{
         display: none;
         margin: 12px;
         bottom: 8px;
-        /* display: block; */
+        
         cursor: pointer;
         border: none;
         background-color: #2bd576;
@@ -102,10 +102,32 @@
         border-radius: 0.375rem;
         color: #e0efff;
         font-weight: 600;
-        /* margin-left: 500px ; */
+        
         position: absolute;
         right: 127px;
         
+    } */
+
+    .follow-button button p{
+        display: none;
+    }
+
+    .follow-button button{
+        align-items: center;
+        justify-content: center;
+        /* position: relative;
+        top: 60px; */
     }
     
+}
+
+@media only screen and (max-width: 390px){
+    .follow-button button{
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 60px;
+        right: 90px;
+        bottom: 9px;
+    }
 }
